@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulario</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&family=Syne:wght@700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+  <nav class="menu">
+    <ul class="menu-lista">
+      <li><a class="menu-enlace" href="index.html">Inicio</a></li>
+      <li><a class="menu-enlace" href="galeria.html">Galería</a></li>
+      <li><a class="menu-enlace" href="formulario.html" aria-current="page">Formulario</a></li>
+    </ul>
+  </nav>
+
+  <main class="contenido">
+    <h1 class="titulo">Pongamonos en contacto</h1>
+    <p class="texto">Hablame, para colaborar o para hablar o para preguntarme dudas o para enviarme fotos de cachorros de Golden Retriever.</p>
+
+    <form class="formulario" action="#" method="post">
+      <label class="formulario-etiqueta" for="nombre">Nombre</label>
+      <input class="formulario-campo" type="text" id="nombre" name="nombre">
+
+      <label class="formulario-etiqueta" for="correo">Correo</label>
+      <input class="formulario-campo" type="email" id="correo" name="correo">
+
+      <label class="formulario-etiqueta" for="mensaje">Motivo</label>
+      <textarea class="formulario-campo" id="mensaje" name="mensaje" rows="5"></textarea>
+
+      <button class="formulario-boton" type="submit">Contactar</button>
+    </form>
+  </main>
+
+  <footer class="pie">
+    <p class="texto">Musa Younas Aqsa© 2026</p>
+  </footer>
+</body>
+</html>
